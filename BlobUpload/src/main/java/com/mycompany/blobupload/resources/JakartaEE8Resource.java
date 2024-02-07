@@ -23,7 +23,7 @@ public class JakartaEE8Resource {
     public String ping(){
         System.out.println("\nListing blobs...");
         // Retrieve the connection string for use with the application. 
-        String connectStr = "DefaultEndpointsProtocol=https;AccountName=blobstoragefbg;AccountKey=Nk3ancqYUY29dt86pMzfZTqoABdNeVKoi0SvIL7be9PMMboU89jpuSPQrlaMZk2dSixw27sZVQSs+AStiWNbqw==;EndpointSuffix=core.windows.net";
+        String connectStr = "";
 
         // Create a BlobServiceClient object using a connection string
         BlobServiceClient blobServiceClient = new BlobServiceClientBuilder()
