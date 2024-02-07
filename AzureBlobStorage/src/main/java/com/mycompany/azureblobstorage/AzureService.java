@@ -26,7 +26,7 @@ public class AzureService {
         System.out.println("Establish BlobServiceClient");
         try {
             // Retrieve the connection string for use with the application. 
-             String connectStr = "DefaultEndpointsProtocol=https;AccountName=bluehookdocuments;AccountKey=WbQ6YXbemnGM2aZLZuU3bp4dMn3nCszw20ahtPhZPEAELytN51LgJadU0onS3xRX5ci8w2QMMZgi+AStNNsgzQ==;EndpointSuffix=core.windows.net";
+             String connectStr = "";
             // Create a BlobServiceClient object using a connection string
             BlobServiceClient blobServiceClient = new BlobServiceClientBuilder()
                 .connectionString(connectStr)
